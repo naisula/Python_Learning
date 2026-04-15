@@ -21,8 +21,8 @@ print(height/3,type(height/3)) #divides height by 3 and displays the type after 
 print(1+2*5,type(1+2*5)) #evaluates the expression then displays the type
 
 #EXERCISE 4:prompts the user for a celcius temperature, convert to faranheit and print the converted temperature
-Celcius_temp=float(input("Enter temperature in degree celcius "))
-Fahrenheit= Celcius_temp*2 +30
+Celcius_temp=float(input("Enter temperature in degree celcius ")) #prompts the user for temperature and stores the variable as a float
+Fahrenheit= Celcius_temp*2 +30 #expression to convert temperature in degrees celcius to fahreheit
 print(Fahrenheit)
 
 
