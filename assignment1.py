@@ -14,14 +14,16 @@ match operator: # checks the value of the variable operator, what operator the u
         print(num1 / num2)
     case _ :
         print("Invalid operator")#returns an error if the user inputs and invalid operator
+        
 
 ##QUESTION 2:program that generates and prints a random number between 1 and 100 using random library
 import random#this tells python to use random in the built in library
 number = random.randint(1,100)# tells the computer to generatea random integer between and including 1 and 100
 print("Random number is:", number)
+
+
 ##QUESTION 3:write a program that calculates and prints the sqrt of a given number using the math.sqrt function
 import math
 square_number=float(input("number:"))
 sqrt=math.sqrt(square_number)
 print(sqrt)
-
